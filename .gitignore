@@ -53,6 +53,13 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+
 ### Executable ###
 *.app
 *.bat
@@ -65,4 +72,3 @@ dkms.conf
 *.vb
 *.wsf
 .gdb_history
-!*.*
